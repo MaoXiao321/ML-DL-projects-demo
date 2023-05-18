@@ -10,3 +10,5 @@
 
 ## 算句子相似度
 利用hugging face模型库中的sbert-base-chinese-nli算句子相似度。句子的表征向量是平均所有位置的输出值得到。
+
+参考：https://blog.csdn.net/ssw_1990/article/details/126617607
