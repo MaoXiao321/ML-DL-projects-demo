@@ -9,6 +9,6 @@
 参考：https://zhuanlan.zhihu.com/p/525977098
 
 ## 算句子相似度
-利用hugging face模型库中的sbert-base-chinese-nli算句子相似度。句子的表征向量是平均所有位置的输出值得到。
+利用hugging face模型库中的sbert-base-chinese-nli算句子相似度。句子的表征向量是平均所有位置的输出值得到。sbert-base-chinese-nli是通过UER-py项目预训练的句子嵌入模型，在预训练模型chinese_roberta_L-12_H-768的基础上微调了5个epochs，序列长度为128。
 
 参考：https://blog.csdn.net/ssw_1990/article/details/126617607
